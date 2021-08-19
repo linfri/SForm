@@ -4,7 +4,7 @@ SForm is an easy-to-use music submission form (R Shiny app + additional R script
 
 The text files include artist descriptions, tracklists, and the album description + credits. Supports [GDPR](https://gdpr.eu) (disabled by default). Optimized for [Bandcamp](https://bandcamp.com) and specifically for [Kalamine Records](http://kalaminerecords.com) submission process.
 
-Created by Linn Friberg (@linfri), who is studying towards BSc with a major in Statistics at Linköping University, Sweden.
+Created by Linn Friberg (@linfri), who is studying towards BSc with a major in Statistics at Linköping University.
 
 ## Installation and Usage
 

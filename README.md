@@ -4,11 +4,15 @@ SForm is an easy-to-use music submission form (R Shiny app + additional R script
 
 The text files include artist descriptions, tracklists, and the album description + credits. Supports [GDPR](https://gdpr.eu) (disabled by default). Optimized for [Bandcamp](https://bandcamp.com) and specifically for [Kalamine Records](http://kalaminerecords.com) submission process.
 
+Created by Linn Friberg (@linfri), who is studying towards BSc with a major in Statistics at Linköping University, Sweden.
+
 ## Installation and Usage
 
-You need: [R](https://www.r-project.org) & [RStudio](https://www.rstudio.com), a Dropbox account and [shinyapps.io](https://www.shinyapps.io) account.
+You will need: [R](https://www.r-project.org) & [RStudio](https://www.rstudio.com), a Dropbox account and [shinyapps.io](https://www.shinyapps.io) account.
 
-Dependencies: `shinyjs`, `shinybulma`, `rdrop2`, `lubridate`, `tools`, `R.utils`, `stringi`, `rvest`, `curl`. If any of these packages are missing, run:
+Dependencies: `shinyjs`, `shinybulma`, `rdrop2`, `lubridate`, `tools`, `R.utils`, `stringi`, `rvest`, `curl`. 
+
+If any of these packages are missing, run:
 
 ```r
 install.packages("your-package-name")

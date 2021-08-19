@@ -51,6 +51,8 @@ downloadMusic()
 
 Check the `Downloads` folder. You're done!
 
+Don't forget to paste the name of your mastering engineer, graphic designer & photo source in your AlbumCredits.txt
+
 ## Roadmap
 
 Adding support for AWS, ran into some Dropbox-specific issues.

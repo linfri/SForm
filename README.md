@@ -6,7 +6,7 @@ The text files include artist descriptions, tracklists, and the album descriptio
 
 Created by Linn Friberg (@linfri), who is studying towards BSc with a major in Statistics at Linköping University.
 
-## Installation and Usage
+## Installation
 
 You will need: [R](https://www.r-project.org) & [RStudio](https://www.rstudio.com), a Dropbox account and [shinyapps.io](https://www.shinyapps.io) account.
 
@@ -25,14 +25,6 @@ install.packages("devtools")
 devtools::install_github("RinteRface/shinybulma")
 ```
 
-Paste your compilation call/description (HTML allowed) into `compilationcall.txt`
-
-Paste the deadline date into `deadline.txt` (YYYY-MM-DD format)
-
-Paste the Facebook event link (HTML) into `fbevent.txt`
-
-Paste the producer's name (HTML allowed) into `producer.txt`
-
 Generate the Dropbox token with `token.R`:
 
 ```r
@@ -40,6 +32,16 @@ generateToken()
 ```
 
 Deploy the app according to [these instructions](https://shiny.rstudio.com/articles/shinyapps.html). 
+
+## Usage
+
+Paste your compilation call/description (HTML allowed) into `compilationcall.txt`
+
+Paste the deadline date into `deadline.txt` (YYYY-MM-DD format)
+
+Paste the Facebook event link (HTML) into `fbevent.txt`
+
+Paste the producer's name (HTML allowed) into `producer.txt`
 
 Open `download.R`, load all the functions into the environment, and simply run:
 

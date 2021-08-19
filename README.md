@@ -41,6 +41,8 @@ generateToken()
 
 Deploy the app according to [these instructions](https://shiny.rstudio.com/articles/shinyapps.html). 
 
+Wait until you got submitted tracks in your Dropbox.
+
 Open `download.R`, load all the functions into the environment, and simply run:
 
 ```r

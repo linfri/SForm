@@ -1,0 +1,8 @@
+<p align = "justify">Fill out all the fields in the form below and select your audiofile by tapping the button "Browse". The audiofile will start uploading immediately. If everything went okay, you'll receive a message: "Submission Successful".
+</p>
+<br/>
+Your audiofile must be WAV/FLAC/AIFF, smaller than 150 MB.
+<br/>
+The track will be mastered by the compilation producer.
+<br/>
+<br/>

@@ -52,8 +52,11 @@ Check the `Downloads` folder. You're done!
 ## Roadmap
 
 Adding support for AWS, ran into some Dropbox-specific issues.
+
 Collecting emails and mass-mailing the artists (if GDPR is enabled).
+
 Generating description files for Internet Archive.
+
 Generating not only CSVs but also PDF reports with stats.
 
 ## Contributing

@@ -15,6 +15,18 @@
 #
 #-------------------------------------------------------------------------------
 
+# Making sure the packages are installed
+pgs <- c("rdrop2", "shinyjs", "lubridate")
+lapply(pgs, function(x) if (!require(x, character.only = TRUE)) install.packages(x))
+
+pgb <- "shinybulma"
+lapply(pgb, function(x) {
+  if (!require(x, character.only = TRUE)) {
+    install.packages("devtools")
+    devtools::install_github("RinteRface/shinybulma")
+  }
+})
+
 library(shiny)
 library(shinyjs)
 library(shinybulma)
@@ -37,7 +49,7 @@ ui <- bulmaPage(
     color = "primary",
     bulmaHeroBody(
       bulmaContainer(
-        
+
         # Form title (changeable)
         bulmaTitle("Submission Form"),
 

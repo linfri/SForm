@@ -26,8 +26,8 @@ pacman::p_load(rdrop2, tools, R.utils, stringi, rvest, httpuv, curl)
 #'
 #'
 
-downloadMusicExt <- function(tokenURL = "ee977806d7286510da", 
-                             targetFolder  = "Downloads\\", 
+downloadMusicExt <- function(tokenURL = "ee977806d7286510da",
+                             targetFolder = "Downloads\\",
                              extension) {
 
   # Determines extensions and if called directly checks params.
@@ -122,7 +122,7 @@ downloadMusicExt <- function(tokenURL = "ee977806d7286510da",
 #' @description
 #' Calls downloadMusicExt() for all the supported formats, generates
 #' the tracklist sorted in alphabetical order, album description,
-#' album credits. Optimized for Bandcamp, specifically, Kalamine Records 
+#' album credits. Optimized for Bandcamp, specifically, Kalamine Records
 #' submission process.
 #'
 #' @param dlToken Path to the token, default from generateToken()
@@ -157,8 +157,10 @@ downloadMusic <- function(dlToken = "ee977806d7286510da",
     paste0(dlFolder, "AlbumInfo.txt")
   )
   credits <- c(
-    paste0("Compiled by ", html_text(read_html("producer.txt")), 
-           " in ", format(Sys.time(), "%B %Y"), "."),
+    paste0(
+      "Compiled by ", html_text(read_html("producer.txt")),
+      " in ", format(Sys.time(), "%B %Y"), "."
+    ),
     "Mastered by ___.",
     "Image by ___ from Pixabay/Unsplash (Month YEAR)",
     "Text and graphic design by ___.\n",

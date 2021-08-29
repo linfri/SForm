@@ -48,6 +48,8 @@ Generating description files for Internet Archive.
 
 Generating not only CSVs but also PDF reports with stats.
 
+Adding checks for special symbols (if migration to AWS won't solve it)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

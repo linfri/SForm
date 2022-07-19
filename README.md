@@ -42,11 +42,9 @@ Don't forget to paste the name of your mastering engineer, graphic designer & ph
 
 Adding support for AWS, ran into some Dropbox-specific issues.
 
-Collecting emails and mass-mailing the artists (if GDPR is enabled).
+Collecting emails and mass-mailing the artists.
 
 Generating description files for Internet Archive.
-
-Generating not only CSVs but also PDF reports with stats.
 
 Adding checks for special symbols (if migration to AWS won't solve it)
 

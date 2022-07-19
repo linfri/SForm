@@ -4,7 +4,7 @@ library(rdrop2)
 
 .dstate <- new.env(parent = emptyenv())
 
-drop_auth_RT <- function(new_user = FALSE, key = "mmhfsybffdom42w", secret = "l8zeqqqgm1ne5z0", cache = TRUE, rdstoken = NA) {
+drop_auth_RT <- function(new_user = FALSE, key = "", secret = "", cache = TRUE, rdstoken = NA) {
   if (new_user == FALSE & !is.na(rdstoken)) {
     if (file.exists(rdstoken)) {
       .dstate$token <- readRDS(rdstoken)

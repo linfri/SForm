@@ -2,8 +2,6 @@
 
 SForm is an easy-to-use music submission form (R Shiny app + additional R scripts), which uploads music files to [Dropbox](https://www.dropbox.com) along with the form data (artist name, track title, country, and artist's website), downloads the files locally, renames the files according to the form data, transforms the data and generates text files + statistics based on the data. Intended for music compilation producers and [netlabel](https://en.wikipedia.org/wiki/Netlabel) owners collecting single tracks from many different sources. Supports [GDPR](https://gdpr.eu) (disabled by default). Optimized for [Bandcamp](https://bandcamp.com) and, specifically, the submission requirements of [Kalamine Records](http://kalaminerecords.com), but can be easily adapted for any other netlabel.
 
-Created by Linn Friberg, who is studying towards BSc with a major in Statistics at Linköping University.
-
 ## Installation and Usage
 
 You will need: [R](https://www.r-project.org) & [RStudio](https://www.rstudio.com), a Dropbox account and [shinyapps.io](https://www.shinyapps.io) account.
@@ -51,7 +49,9 @@ Generating not only CSVs but also PDF reports with stats.
 Adding checks for special symbols (if migration to AWS won't solve it)
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)

@@ -27,7 +27,7 @@ pacman::p_load(rdrop2, tools, R.utils, stringi, rvest, httpuv, curl)
 #'
 
 downloadMusicExt <- function(tokenURL = "ee977806d7286510da",
-                             targetFolder = "Downloads\\",
+                             targetFolder = "Downloads/",
                              extension) {
 
   # Determines extensions and if called directly checks params.
@@ -134,7 +134,7 @@ downloadMusicExt <- function(tokenURL = "ee977806d7286510da",
 #'
 
 downloadMusic <- function(dlToken = "ee977806d7286510da",
-                          dlFolder = "Downloads\\") {
+                          dlFolder = "Downloads/") {
   print("Downloading all the files from Dropbox...")
   dfWAV <- downloadMusicExt(dlToken, dlFolder, "wav")
   dfFLAC <- downloadMusicExt(dlToken, dlFolder, "flac")

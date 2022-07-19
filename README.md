@@ -19,7 +19,7 @@ Paste the producer's name (HTML allowed) into `producer.txt`
 Generate the Dropbox token with `token.R`. Load the function into the environment, and run:
 
 ```r
-generateToken()
+drop_auth_RT()
 ```
 
 Deploy the app according to [these instructions](https://shiny.rstudio.com/articles/shinyapps.html). 

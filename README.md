@@ -36,6 +36,8 @@ Check the `Downloads` folder (created by default). You're done!
 
 Don't forget to paste the name of your mastering engineer, graphic designer & photo source into your `AlbumCredits.txt`
 
+![](app.png?raw=true)
+
 ## Roadmap
 
 Adding support for AWS, ran into some Dropbox-specific issues.
@@ -47,6 +49,8 @@ Generating description files for Internet Archive.
 Generating not only CSVs but also PDF reports with stats.
 
 Adding checks for special symbols (if migration to AWS won't solve it)
+
+Creating a SQL database of the artist descriptions/links for automatic generation.
 
 ## Contributing
 
